@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Example::Content::VERSION
   s.authors     = [""]
   s.email       = ["alexis@cvofhope.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Example::Content."
-  s.description = "TODO: Description of Example::Content."
+  s.homepage    = "https://github.com/bambii7/example-content"
+  s.summary     = "Dummy content to view with in a web sites theme."
+  s.description = "A showcase of example content."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
