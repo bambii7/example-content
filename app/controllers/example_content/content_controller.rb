@@ -1,5 +1,5 @@
 module ExampleContent
-  class ExampleContentController < ApplicationController
+  class ContentController < ApplicationController
     def index; end
   end
 end

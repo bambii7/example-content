@@ -110,7 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  example-content!
+  example_content!
 
 BUNDLED WITH
    1.13.6
