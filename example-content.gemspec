@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "example/content/version"
+require "example_content/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "example-content"
-  s.version     = Example::Content::VERSION
+  s.version     = ExampleContent::VERSION
   s.authors     = [""]
   s.email       = ["alexis@cvofhope.com"]
   s.homepage    = "https://github.com/bambii7/example-content"
@@ -18,5 +18,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '>= 4'
 
-  s.add_development_dependency "sqlite3"
 end
